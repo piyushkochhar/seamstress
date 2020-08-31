@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #000000;
+  color: #ffffff;
+  width: 620px;
+}
+
+header {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+
+section div.split {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section div.slides {
+  width: 500px;
+  height: 750px;
+}
+
+section div.info {
+  max-width: 480px;
+}
