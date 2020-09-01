@@ -24,6 +24,10 @@ section div.split {
   justify-content: center;
 }
 
+section div.split:first-child {
+  background-color: red;
+}
+
 section div.slides {
   width: 500px;
   height: 750px;
@@ -31,4 +35,10 @@ section div.slides {
 
 section div.info {
   max-width: 480px;
+}
+
+img {
+  height: 650px;
+  position: relative;
+  top: 80px;
 }
